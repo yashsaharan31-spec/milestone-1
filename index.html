@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serene Gym</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f4f1e9] text-[#171916]">
+
+  <!-- NAVBAR -->
+  <header class="bg-[#171916] text-white">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+
+      <h1 class="text-3xl font-bold tracking-widest">
+        SERENE GYM
+      </h1>
+
+      <ul class="hidden md:flex gap-8 text-sm uppercase">
+        <li><a href="#home" class="hover:text-[#a8b49b]">Home</a></li>
+        <li><a href="#about" class="hover:text-[#a8b49b]">About</a></li>
+        <li><a href="#services" class="hover:text-[#a8b49b]">Services</a></li>
+        <li><a href="#membership" class="hover:text-[#a8b49b]">Membership</a></li>
+        <li><a href="#contact" class="hover:text-[#a8b49b]">Contact</a></li>
+      </ul>
+
+      <a href="#membership" class="bg-[#a8b49b] text-black px-5 py-3 rounded-full font-semibold hover:bg-white">
+        Join Now
+      </a>
+
+    </div>
+  </header>
+
+  <div style="background: linear-gradient(
+    to bottom,
+    #f4f1e9 0%,
+    #f4f1e9 60%,
+    #f4f1e9 70%,
+    #171916 100%
+);">
+    <!-- HOME SECTION -->
+    <section id="home" class="min-h-[600px] flex items-center bg-cover bg-center bg-[url('./gym.png')]">
+
+      <div class="max-w-7xl mx-auto px-8 text-white">
+
+        <p class="text-[#a8b49b] uppercase tracking-[5px] mb-5">
+          Fitness • Strength • Wellness
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-bold max-w-3xl leading-tight">
+          BUILD YOUR BODY.
+          <span class="text-[#a8b49b]">TRANSFORM YOUR LIFE.</span>
+        </h1>
+
+        <p class="text-gray-300 mt-6 max-w-xl text-lg">
+          Your fitness journey begins here. Build strength,
+          improve health and become the best version of yourself.
+        </p>
+
+        <a href="#membership"
+          class="inline-block mt-8 bg-[#a8b49b] text-black px-8 py-4 rounded-full font-bold hover:bg-white">
+          Explore Membership
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 px-8">
+
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1000"
+          class="w-full h-[450px] object-cover rounded-xl" alt="Gym interior">
+
+        <div>
+
+          <p class="text-[#777d72] tracking-widest font-bold">
+            ABOUT SERENE
+          </p>
+
+          <h2 class="text-5xl font-bold mt-4">
+            FITNESS WITH A
+            <span class="text-[#777d72]">PURPOSE.</span>
+          </h2>
+
+          <p class="mt-6 text-gray-600 leading-8">
+            Welcome to Serene Gym, where fitness meets lifestyle.
+            We provide a comfortable and motivating environment
+            to help you achieve your fitness goals.
+          </p>
+
+          <p class="mt-4 text-gray-600 leading-8">
+            Whether you want to build muscle, lose weight or
+            improve your health, we are here to support you.
+          </p>
+
+          <a href="#services" class="inline-block mt-8 border-b-2 border-black pb-2 font-bold">
+            Discover More →
+          </a>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="bg-[#171916] py-24 px-8">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <p class="text-gray-500 tracking-widest font-bold">
+          OUR SERVICES
+        </p>
+        <h2 class="text-5xl font-bold mt-3">
+          TRAIN YOUR WAY
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800" class="h-64 w-full object-cover"
+            alt="Weight training">
+
+          <div class="p-7">
+            <h3 class="text-2xl font-bold">Weight Training</h3>
+            <p class="text-white mt-3 leading-7">
+              Build muscle, improve strength and develop
+              your body with professional equipment.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+          <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800" class="h-64 w-full object-cover"
+            alt="Cardio training">
+
+          <div class="p-7">
+            <h3 class="text-2xl font-bold">Cardio Training</h3>
+            <p class="text-white mt-3 leading-7">
+              Improve stamina, burn calories and
+              maintain a healthy heart.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800" class="h-64 w-full object-cover"
+            alt="Yoga training">
+
+          <div class="p-7">
+            <h3 class="text-2xl font-bold">Yoga & Fitness</h3>
+            <p class="text-white mt-3 leading-7">
+              Improve flexibility, balance and
+              mental relaxation.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MEMBERSHIP SECTION -->
+  <section id="membership" class="bg-[#171916] text-white py-24 px-8">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <p class="text-[#a8b49b] tracking-widest font-bold">
+          MEMBERSHIP PLANS
+        </p>
+        <h2 class="text-5xl font-bold mt-4">
+          CHOOSE YOUR PLAN
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- BASIC -->
+        <div class="border border-gray-600 p-8 rounded-xl">
+          <h3 class="text-3xl font-bold">Basic</h3>
+
+          <h2 class="text-4xl font-bold mt-6">
+            ₹999<span class="text-sm text-gray-400"> / month</span>
+          </h2>
+
+          <ul class="mt-8 space-y-5 text-gray-300">
+            <li>✓ Gym Access</li>
+            <li>✓ Basic Workout Guidance</li>
+            <li>✓ Locker Facility</li>
+            <li>✓ Cardio Equipment</li>
+          </ul>
+
+          <a href="#contact"
+            class="block text-center mt-10 border border-white py-3 rounded-full hover:bg-white hover:text-black">
+            Join Now
+          </a>
+        </div>
+
+
+        <!-- PREMIUM -->
+        <div class="bg-[#a8b49b] text-black p-8 rounded-xl">
+
+          <p class="font-bold text-sm">MOST POPULAR</p>
+
+          <h3 class="text-3xl font-bold mt-4">Premium</h3>
+
+          <h2 class="text-4xl font-bold mt-6">
+            ₹1499<span class="text-sm"> / month</span>
+          </h2>
+
+          <ul class="mt-8 space-y-5">
+            <li>✓ Full Gym Access</li>
+            <li>✓ Personal Workout Plan</li>
+            <li>✓ Cardio & Weight Training</li>
+            <li>✓ Diet Guidance</li>
+          </ul>
+
+          <a href="#contact"
+            class="block text-center mt-10 bg-black text-white py-3 rounded-full hover:bg-white hover:text-black">
+            Join Now
+          </a>
+        </div>
+
+
+        <!-- ELITE -->
+        <div class="border border-gray-600 p-8 rounded-xl">
+
+          <h3 class="text-3xl font-bold">Elite</h3>
+
+          <h2 class="text-4xl font-bold mt-6">
+            ₹2499<span class="text-sm text-gray-400"> / month</span>
+          </h2>
+
+          <ul class="mt-8 space-y-5 text-gray-300">
+            <li>✓ All Premium Benefits</li>
+            <li>✓ Personal Trainer</li>
+            <li>✓ Customized Fitness Plan</li>
+            <li>✓ Nutrition Consultation</li>
+          </ul>
+
+          <a href="#contact"
+            class="block text-center mt-10 border border-white py-3 rounded-full hover:bg-white hover:text-black">
+            Join Now
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- RATING SECTION -->
+  <section id="reviews" class="bg-[#171916] text-white py-24 px-8">
+
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+
+        <p class="text-[#a8b49b] font-bold tracking-[4px]">
+          TESTIMONIALS
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mt-4">
+          WHAT OUR MEMBERS SAY
+        </h2>
+
+        <p class="text-gray-400 mt-5">
+          Real experiences. Real transformations. Real results.
+        </p>
+
+      </div>
+
+
+      <!-- RATING SUMMARY -->
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+
+        <div class="md:col-span-1 text-center border border-gray-700 rounded-xl p-8">
+
+          <h2 class="text-6xl font-bold text-[#a8b49b]">
+            4.9
+          </h2>
+
+          <div class="text-yellow-400 text-2xl mt-3">
+            ★★★★★
+          </div>
+
+          <p class="text-gray-400 mt-3">
+            Average Member Rating
+          </p>
+
+        </div>
+
+
+        <div class="md:col-span-2 border border-gray-700 rounded-xl p-8">
+
+          <h3 class="text-xl font-bold mb-6">
+            Member Satisfaction
+          </h3>
+
+          <div class="space-y-5">
+
+            <div class="flex items-center gap-4">
+              <span>5 ★</span>
+              <div class="h-2 bg-gray-700 rounded-full flex-1">
+                <div class="h-2 bg-[#a8b49b] rounded-full w-[90%]"></div>
+              </div>
+              <span class="text-gray-400">90%</span>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <span>4 ★</span>
+              <div class="h-2 bg-gray-700 rounded-full flex-1">
+                <div class="h-2 bg-[#a8b49b] rounded-full w-[7%]"></div>
+              </div>
+              <span class="text-gray-400">7%</span>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <span>3 ★</span>
+              <div class="h-2 bg-gray-700 rounded-full flex-1">
+                <div class="h-2 bg-[#a8b49b] rounded-full w-[3%]"></div>
+              </div>
+              <span class="text-gray-400">3%</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CUSTOMER REVIEWS -->
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- REVIEW 1 -->
+        <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
+
+          <div class="text-yellow-400 text-xl mb-5">
+            ★★★★★
+          </div>
+
+          <p class="text-gray-300 leading-7">
+            "Amazing gym with excellent equipment and a
+            friendly environment. The trainers are very
+            supportive and motivating."
+          </p>
+
+          <div class="flex items-center gap-4 mt-8">
+
+          <img src="https://i.pravatar.cc/100?img=12"
+     class="w-12 h-12 rounded-full object-cover"
+     alt="Member">
+
+            <div>
+              <h4 class="font-bold">Rahul Sharma</h4>
+              <p class="text-gray-500 text-sm">Gym Member</p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- REVIEW 2 -->
+        <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
+
+          <div class="text-yellow-400 text-xl mb-5">
+            ★★★★★
+          </div>
+
+          <p class="text-gray-300 leading-7">
+            "The atmosphere is amazing. I love the cleanliness,
+            modern machines and personal training facilities.
+            Highly recommended!"
+          </p>
+
+          <div class="flex items-center gap-4 mt-8">
+
+            <img src="https://i.pravatar.cc/100?img=47" class="w-12 h-12 rounded-full object-cover" alt="Member">
+
+            <div>
+              <h4 class="font-bold">Priya Verma</h4>
+              <p class="text-gray-500 text-sm">Gym Member</p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- REVIEW 3 -->
+        <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
+
+          <div class="text-yellow-400 text-xl mb-5">
+            ★★★★★
+          </div>
+
+          <p class="text-gray-300 leading-7">
+            "Serene Gym helped me stay consistent with my
+            fitness journey. The trainers provide great
+            guidance and motivation."
+          </p>
+
+          <div class="flex items-center gap-4 mt-8">
+
+            <img src="https://i.pravatar.cc/100?img=11" class="w-12 h-12 rounded-full object-cover" alt="Member">
+
+            <div>
+              <h4 class="font-bold">Aman Singh</h4>
+              <p class="text-gray-500 text-sm">Gym Member</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-24 px-8">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14">
+
+      <div>
+        <p class="text-gray-500 font-bold tracking-widest">
+          CONTACT US
+        </p>
+
+        <h2 class="text-5xl font-bold mt-4">
+          LET'S GET
+          <span class="text-gray-500">STARTED.</span>
+        </h2>
+
+        <p class="mt-6 text-gray-600 leading-8">
+          Ready to start your fitness journey?
+          Contact us today and become a part of Serene Gym.
+        </p>
+
+        <div class="mt-10 space-y-5">
+          <p><b>Phone:</b> +91 XXXXX XXXXX</p>
+          <p><b>Email:</b> hello@serenegym.com</p>
+          <p><b>Address:</b> Your Gym Address</p>
+          <p><b>Opening Hours:</b> 5 AM - 10 PM</p>
+        </div>
+      </div>
+
+      <form class="bg-white shadow-lg p-8 rounded-xl">
+
+        <label class="block font-semibold mb-2">Your Name</label>
+        <input type="text" placeholder="Enter your name"
+          class="w-full border p-4 mb-6 rounded-lg outline-none focus:border-black">
+
+        <label class="block font-semibold mb-2">Email Address</label>
+        <input type="email" placeholder="Enter your email"
+          class="w-full border p-4 mb-6 rounded-lg outline-none focus:border-black">
+
+        <label class="block font-semibold mb-2">Message</label>
+        <textarea rows="4" placeholder="Write your message"
+          class="w-full border p-4 mb-6 rounded-lg outline-none focus:border-black"></textarea>
+
+        <button type="button"
+          class="w-full bg-[#171916] text-white py-4 rounded-lg hover:bg-[#a8b49b] hover:text-black">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-[#171916] text-white py-8 px-8">
+
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-5">
+
+      <h2 class="text-2xl font-bold tracking-widest">
+        SERENE<span class="text-[#a8b49b]">.</span>
+      </h2>
+
+      <p class="text-gray-400 text-sm">
+        © 2026 Serene Gym. All Rights Reserved.
+      </p>
+
+      <a href="#home" class="text-[#a8b49b]">
+        Back to Top ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
