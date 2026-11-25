@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serene Gym</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" href="fav.png">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -14,10 +15,13 @@
   <!-- NAVBAR -->
   <header class="bg-[#171916] text-white sticky top-0">
     <div class="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+      <div class="flex">
+      <img src="fav.png" alt="" class="w-[27px] h-[27px] rounded-full mt-[8px]">
 
-      <h1 class="text-3xl font-bold tracking-widest">
-        SERENE GYM
+      <h1 class="text-2xl md:text-3xl font-bold tracking-widest ">
+         SERENE GYM
       </h1>
+      </div>
 
       <ul class="hidden md:flex gap-8 text-sm uppercase">
         <li><a href="#home" class="hover:text-[#a8b49b]">Home</a></li>
@@ -27,8 +31,8 @@
         <li><a href="contact.html" class="hover:text-[#a8b49b]">Contact</a></li>
       </ul>
 
-      <a href="#membership" class="bg-[#a8b49b] text-black px-5 py-3 rounded-full font-semibold hover:bg-white">
-        Join Now
+      <a href="memership.html" class="bg-[#a8b49b] text-black px-5 py-3 rounded-full font-semibold hover:bg-white">
+        Join <span class="hidden md:">Now</span>
       </a>
 
     </div>
@@ -100,7 +104,7 @@
     <div class="max-w-7xl mx-auto">
 
       <div class="text-center mb-14">
-        <p class="text-gray-500 tracking-widest font-bold">
+        <p class="text-gray-500 tracking-widest font-bold text-3xl">
           OUR SERVICES
         </p>
         <h2 class="text-5xl font-bold mt-3">
@@ -110,7 +114,7 @@
 
       <div class="grid md:grid-cols-3 gap-8">
 
-        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow md:transition-transform duration-1000 ease-in-out hover:scale-105 ">
           <img src="gym-3.jpg" class="h-64 w-full object-cover" alt="Weight training">
 
           <div class="p-7">
@@ -122,7 +126,7 @@
           </div>
         </div>
 
-        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow md:transition-transform duration-500 ease-in-out hover:scale-105">
           <img src="gym-2.jpg" class="h-64 w-full object-cover" alt="Cardio training">
 
           <div class="p-7">
@@ -134,7 +138,7 @@
           </div>
         </div>
 
-        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow">
+        <div class="bg-[#a8b49b] rounded-xl overflow-hidden shadow md:transition-transform duration-500 ease-in-out hover:scale-105">
           <img src="gym-1.jpg" class="h-64 w-full object-cover" alt="Yoga training">
 
           <div class="p-7">
@@ -168,7 +172,7 @@
       <div class="grid md:grid-cols-3 gap-8">
 
         <!-- BASIC -->
-        <div class="border border-gray-600 p-8 rounded-xl">
+        <div class="border border-gray-600 p-8 rounded-xl transition-transform duration-300 ease-in-out hover:scale-105">
           <h3 class="text-3xl font-bold">Basic</h3>
 
           <h2 class="text-4xl font-bold mt-6">
@@ -190,7 +194,7 @@
 
 
         <!-- PREMIUM -->
-        <div class="bg-[#a8b49b] text-black p-8 rounded-xl">
+        <div class="bg-[#a8b49b] text-black p-8 rounded-xl transition-transform duration-300 ease-in-out hover:scale-105">
 
           <p class="font-bold text-sm">MOST POPULAR</p>
 
@@ -215,7 +219,7 @@
 
 
         <!-- ELITE -->
-        <div class="border border-gray-600 p-8 rounded-xl">
+        <div class="border border-gray-600 p-8 rounded-xl transition-transform duration-300 ease-in-out hover:scale-105">
 
           <h3 class="text-3xl font-bold">Elite</h3>
 
@@ -272,7 +276,11 @@
           </h2>
 
           <div class="text-yellow-400 text-2xl mt-3">
-            ★★★★★
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
           </div>
 
           <p class="text-gray-400 mt-3">
@@ -291,7 +299,7 @@
           <div class="space-y-5">
 
             <div class="flex items-center gap-4">
-              <span>5 ★</span>
+              <span>5 <i class="fa-regular fa-star"></i></span>
               <div class="h-2 bg-gray-700 rounded-full flex-1">
                 <div class="h-2 bg-[#a8b49b] rounded-full w-[90%]"></div>
               </div>
@@ -299,7 +307,7 @@
             </div>
 
             <div class="flex items-center gap-4">
-              <span>4 ★</span>
+              <span>4 <i class="fa-regular fa-star"></i></span>
               <div class="h-2 bg-gray-700 rounded-full flex-1">
                 <div class="h-2 bg-[#a8b49b] rounded-full w-[7%]"></div>
               </div>
@@ -307,7 +315,7 @@
             </div>
 
             <div class="flex items-center gap-4">
-              <span>3 ★</span>
+              <span>3 <i class="fa-regular fa-star"></i></span>
               <div class="h-2 bg-gray-700 rounded-full flex-1">
                 <div class="h-2 bg-[#a8b49b] rounded-full w-[3%]"></div>
               </div>
@@ -328,7 +336,11 @@
         <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
 
           <div class="text-yellow-400 text-xl mb-5">
-            ★★★★★
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
           </div>
 
           <p class="text-gray-300 leading-7">
@@ -339,7 +351,7 @@
 
           <div class="flex items-center gap-4 mt-8">
 
-            <img src="rat-1.jpg" class="w-12 h-12 rounded-full object-cover" alt="Member">
+            <img src="baki.jpg" class="w-12 h-12 rounded-full object-cover" alt="Member">
 
             <div>
               <h4 class="font-bold">Rahul Sharma</h4>
@@ -355,7 +367,12 @@
         <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
 
           <div class="text-yellow-400 text-xl mb-5">
-            ★★★★★
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
           </div>
 
           <p class="text-gray-300 leading-7">
@@ -382,7 +399,11 @@
         <div class="bg-[#222620] p-8 rounded-xl border border-gray-700 hover:border-[#a8b49b] transition">
 
           <div class="text-yellow-400 text-xl mb-5">
-            ★★★★★
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
           </div>
 
           <p class="text-gray-300 leading-7">
@@ -433,9 +454,9 @@
         </p>
         <!-- DETAIL  -->
         <div class="mt-10 space-y-5">
-          <p><b>Phone:</b> +91 XXXXX XXXXX</p>
-          <p><b>Email:</b> hello@serenegym.com</p>
-          <p><b>Address:</b> Your Gym Address</p>
+          <p><b>Phone:</b> +91 XXXXX-XXXXX</p>
+          <p><b>Email:</b> serenegym@gmail.com</p>
+          <p><b>Address:</b> near mansrover</p>
           <p><b>Opening Hours:</b> 5 AM - 10 PM</p>
         </div>
       </div>
@@ -466,25 +487,132 @@
 
 
   <!-- FOOTER -->
-  <footer class="bg-[#171916] text-white py-8 px-8">
+ 
+<footer class="bg-black  text-gray-400 pt-16 pb-6 px-6 md:px-16">
 
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-5">
+  <!-- Main Footer -->
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12">
 
-      <h2 class="text-2xl font-bold tracking-widest">
-        SERENE<span class="text-[#a8b49b]">.</span>
+    <!-- Brand Section -->
+    <div>
+      <h2 class="text-3xl font-bold tracking-widest text-[#a8b49b] mb-5">
+        SERENE GYM
       </h2>
 
-      <p class="text-gray-400 text-sm">
-        © 2026 Serene Gym. All Rights Reserved.
+      <p class="leading-7 text-gray-400 mb-6">
+        Build Your Body. Transform Your Life.
+        Join Serene Gym and start your fitness journey
+        with expert trainers and world-class equipment.
       </p>
 
-      <a href="#home" class="text-[#a8b49b]">
-        Back to Top ↑
-      </a>
-
+      <div class="flex gap-4 text-xl">
+        <a href="#" class=" text-[#007CF7] "><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="text-[#B16F63]"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-[#F70000]"><i class="fa-brands fa-youtube"></i></a>
+      </div>
     </div>
 
-  </footer>
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-white text-xl font-semibold mb-6">
+        Quick Links
+      </h3>
+
+      <ul class="space-y-4">
+        <li><a href="index.html" class="hover:text-yellow-500 transition">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-500 transition">About Us</a></li>
+        <li><a href="service.html" class="hover:text-yellow-500 transition">Services</a></li>
+        <li><a href="membership.html" class="hover:text-yellow-500 transition">Membership</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-500 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Services -->
+    <div>
+      <h3 class="text-white text-xl font-semibold mb-6">
+        Our Services
+      </h3>
+
+      <ul class="space-y-4">
+        <li>Personal Training</li>
+        <li>Weight Training</li>
+        <li>Cardio Training</li>
+        <li>Yoga & Meditation</li>
+        <li>Diet & Nutrition</li>
+        <li>Strength Training</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div>
+      <h3 class="text-white text-xl font-semibold mb-6">
+        Contact Us
+      </h3>
+
+      <ul class="space-y-4">
+        <li><i class="fa-solid fa-map-pin "></i> Jaipur, Rajasthan, India</li>
+        <li><i class="fa-solid fa-tty bg-[#171916] text-[#aaaaaa]"></i> +91 9876543210</li>
+        <li> <i class="fa-regular fa-envelope"></i> serene@gmail.com</li>
+        <li><i class="fa-solid fa-clock"></i> Mon - Sat: 5 AM - 10 PM</li>
+      </ul>
+
+      <a href="contact.html"
+        class="inline-block mt-6 px-6 py-3 border border-[#a8b49b]
+        text-[#a8b49b] hover:bg-[#a8b49b] hover:text-black
+        transition duration-300 rounded">
+        Join Us Now
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Newsletter Section -->
+  <div class="max-w-7xl mx-auto border-t border-gray-800 py-10
+              flex flex-col md:flex-row justify-between items-center gap-6">
+
+    <div>
+      <h3 class="text-white text-xl font-semibold mb-2">
+        Stay Updated With Serene Gym
+      </h3>
+      <p class="text-gray-500">
+        Get fitness tips, updates and exclusive offers.
+      </p>
+    </div>
+
+    <div class="flex w-full md:w-auto">
+      <input
+        type="email"
+        placeholder="Enter your email"
+        class="bg-gray-900 border border-gray-700 px-4 py-3
+        outline-none text-white w-full md:w-72
+        focus:border-yellow-500"
+      />
+
+      <button class="bg-[#a8b49b] text-black px-6 py-3
+        font-semibold hover:bg-[#a8b49b] transition">
+        Subscribe
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="max-w-7xl mx-auto border-t border-gray-800 pt-6
+              flex flex-col md:flex-row justify-between items-center gap-4">
+
+    <p class="text-sm text-gray-500">
+      @ 2026 SERENE GYM. All Rights Reserved.
+    </p>
+
+    <div class="flex gap-6 text-sm">
+      <a href="#" class="hover:text-[#a8b49b]">Privacy Policy</a>
+      <a href="#" class="hover:text-[#a8b49b]">Terms & Conditions</a>
+    </div>
+
+  </div>
+
+</footer>
+
 
 </body>
 
